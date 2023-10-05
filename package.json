@@ -1,0 +1,45 @@
+{
+  "name": "@leismore/lmos-nodejs-lmresponse",
+  "version": "1.0.0",
+  "description": "A general HTTP Response class for LMOS for Node.js project",
+  "main": "./dist/index.js",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leismore/lmos-nodejs-lmresponse.git"
+  },
+  "keywords": [
+    "HTTP",
+    "HTTP Response",
+    "LMOS for Node.js",
+    "LMOS",
+    "Leismore OpenSource",
+    "Leismore",
+    "Node.js",
+    "NodeJS",
+    "Node"
+  ],
+  "author": {
+    "name": "Kyle Chine",
+    "url": "https://kyle-chine.leismore.co",
+    "email": "kyle.chine@leismore.co"
+  },
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/leismore/lmos-nodejs-lmresponse/issues"
+  },
+  "homepage": "https://github.com/leismore/lmos-nodejs-lmresponse#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.6",
+    "@types/mocha": "^10.0.2",
+    "@types/node": "^18.17.19",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
