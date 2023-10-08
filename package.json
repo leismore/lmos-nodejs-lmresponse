@@ -6,7 +6,7 @@
   "type": "module",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "start-server": "ts-node ./test/server.ts",
+    "start-server": "ts-node-esm ./test/server.ts",
     "start-test": "mocha ./test/test.ts",
     "test": "start-server-and-test start-server http://localhost:8080/success start-test"
   },
