@@ -1,7 +1,7 @@
-import express = require('express');
-import { LMResponse as Resp, LMResponseData as RespData, LMResponseError as RespError } from '../src/index';
-import { LMError } from '@leismore/lmerror';
-import createHttpError = require('http-errors');
+import express from 'express';
+import { LMResponse as Resp, LMResponseData as RespData, LMResponseError as RespError } from '../src/index.js';
+import { LMError } from '@leismore/lmos-nodejs-lmerror';
+import createHttpError from 'http-errors';
 
 const app  = express();
 const port = 8080;
