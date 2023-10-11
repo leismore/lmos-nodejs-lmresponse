@@ -18,7 +18,7 @@ function filter_res(res:Res):Res
     throw new ResError('invalid_http_statusCode', '1');
   }
 
-  if (typeof res.headers !== undefined && typeof res.headers !== 'object')
+  if (res.headers !== undefined && typeof res.headers !== 'object')
   {
     throw new ResError('invalid_http_header', '2');
   }
