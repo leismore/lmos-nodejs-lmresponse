@@ -1,6 +1,6 @@
 {
   "name": "@leismore/lmos-nodejs-lmresponse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A general HTTP Response class for LMOS for Node.js project",
   "main": "./dist/index.js",
   "type": "module",
@@ -42,7 +42,8 @@
     "start-server-12": "ts-node-esm ./test/server_invalid_d.ts",
     "start-test-12": "mocha ./test/test_invalid_d.ts",
     "test-12": "start-server-and-test --expect 200 start-server-12 http://localhost:8080 start-test-12",
-    "test": "npm run test-01; npm run test-02; npm run test-03; npm run test-04; npm run test-05; npm run test-06; npm run test-07; npm run test-08; npm run test-09; npm run test-10; npm run test-11; npm run test-12"
+    "test": "npm run test-01; npm run test-02; npm run test-03; npm run test-04; npm run test-05; npm run test-06; npm run test-07; npm run test-08; npm run test-09; npm run test-10; npm run test-11; npm run test-12",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -64,26 +65,30 @@
     "url": "https://kyle-chine.leismore.co",
     "email": "kyle.chine@leismore.co"
   },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/leismore"
+  },
   "license": "AGPL-3.0-only",
   "bugs": {
     "url": "https://github.com/leismore/lmos-nodejs-lmresponse/issues"
   },
   "homepage": "https://github.com/leismore/lmos-nodejs-lmresponse#readme",
   "devDependencies": {
-    "@types/chai": "^4.3.6",
-    "@types/express": "^4.17.18",
-    "@types/http-errors": "^2.0.2",
-    "@types/mocha": "^10.0.2",
-    "@types/node": "^18.17.19",
-    "axios": "^1.5.1",
-    "chai": "^4.3.10",
-    "mocha": "^10.2.0",
-    "start-server-and-test": "^2.0.1",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
+    "@types/chai": "^4.3.11",
+    "@types/express": "^4.17.21",
+    "@types/http-errors": "^2.0.4",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.17",
+    "axios": "^1.6.7",
+    "chai": "^5.0.3",
+    "mocha": "^10.3.0",
+    "start-server-and-test": "^2.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@leismore/lmos-nodejs-lmerror": "^1.1.0",
+    "@leismore/lmos-nodejs-lmerror": "^1.1.1",
     "express": "^4.18.2",
     "http-errors": "^2.0.0"
   }

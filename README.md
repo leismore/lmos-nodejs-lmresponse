@@ -9,7 +9,7 @@ A general HTTP Response class for [LMOS for Node.js](https://nodejs.lmos.leismor
 
 ## Environment
 
-* [Node.js](https://nodejs.org)          18
+* [Node.js](https://nodejs.org)          20
 * [Express.js](https://expressjs.com)    4
 
 ## Installation
@@ -19,6 +19,10 @@ A general HTTP Response class for [LMOS for Node.js](https://nodejs.lmos.leismor
 ## Test
 
 `npm test`
+
+## Build
+
+`npm run build`
 
 ## Example
 
@@ -120,7 +124,7 @@ Refer to [LMError](https://www.npmjs.com/package/@leismore/lmos-nodejs-lmerror)
 
 ## License
 
-© [Leismore](https://www.leismore.co) 2023
+© [Leismore](https://www.leismore.co) 2024
 
 GNU AFFERO GENERAL PUBLIC LICENSE v3
 
